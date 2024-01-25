@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+    <row>
+        <row _id="row-ad57_kmha~4mpw" _uuid="00000000-0000-0000-D702-499E08D8B64A" _position="0" _address="https://data.ct.gov/resource/t4hx-jd4c/row-ad57_kmha~4mpw">
+            <reportingdistrictcode>00000CT</reportingdistrictcode>
+            <reportingdistrictname>Connecticut</reportingdistrictname>
+            <category>Homelessness</category>
+            <studentgroup>All Students</studentgroup>
+            <studentcount_current>500285</studentcount_current>
+            <attrate_ytd>0.9169</attrate_ytd>
+            <studentcount_202021>496092</studentcount_202021>
+            <attrate_202021>0.9294</attrate_202021>
+            <studentcount_201920>508346</studentcount_201920>
+            <attrate_201920>0.9479</attrate_201920>
+            <reportingperiod>2022-06-01T00:00:00</reportingperiod>
+            <date_update>2022-07-22T00:00:00</date_update>
+        </row>
+        <row _id="row-xhub-d4is-e2ga" _uuid="00000000-0000-0000-073B-4160AF9EE1C9" _position="0" _address="https://data.ct.gov/resource/t4hx-jd4c/row-xhub-d4is-e2ga">
+            <reportingdistrictcode>00000CT</reportingdistrictcode>
+            <reportingdistrictname>Connecticut</reportingdistrictname>
+            <category>Homelessness</category>
+            <studentgroup>Students Experiencing Homelessness</studentgroup>
+            <studentcount_current>1814</studentcount_current>
+            <attrate_ytd>0.8348</attrate_ytd>
+            <studentcount_202021>1735</studentcount_202021>
+            <attrate_202021>0.8155</attrate_202021>
+            <studentcount_201920>3916</studentcount_201920>
+            <attrate_201920>0.8884</attrate_201920>
+            <reportingperiod>2022-06-01T00:00:00</reportingperiod>
+            <date_update>2022-07-22T00:00:00</date_update>
+        </row>
+        <row _id="row-kv8u_y9dh_ctqt" _uuid="00000000-0000-0000-E1F8-B6264CC6F81D" _position="0" _address="https://data.ct.gov/resource/t4hx-jd4c/row-kv8u_y9dh_ctqt">
+            <reportingdistrictcode>00000CT</reportingdistrictcode>
+            <reportingdistrictname>Connecticut</reportingdistrictname>
+            <category>Students With Disabilities</category>
+            <studentgroup>Students With Disabilities</studentgroup>
+            <studentcount_current>78417</studentcount_current>
+            <attrate_ytd>0.8899</attrate_ytd>
+            <studentcount_202021>76487</studentcount_202021>
+            <attrate_202021>0.8946</attrate_202021>
+            <studentcount_201920>80365</studentcount_201920>
+            <attrate_201920>0.9277</attrate_201920>
+            <reportingperiod>2022-06-01T00:00:00</reportingperiod>
+            <date_update>2022-07-22T00:00:00</date_update>
+        </row>
+        <row _id="row-fifi-g8k6.qf94" _uuid="00000000-0000-0000-AAA9-6103AF29F4E0" _position="0" _address="https://data.ct.gov/resource/t4hx-jd4c/row-fifi-g8k6.qf94">
+            <reportingdistrictcode>00000CT</reportingdistrictcode>
+            <reportingdistrictname>Connecticut</reportingdistrictname>
+            <category>Free/Reduced Lunch</category>
+            <studentgroup>Free Meal Eligible</studentgroup>
+            <studentcount_current>168984</studentcount_current>
+            <attrate_ytd>0.8851</attrate_ytd>
+            <studentcount_202021>176225</studentcount_202021>
+            <attrate_202021>0.8861</attrate_202021>
+            <studentcount_201920>193706</studentcount_201920>
+            <attrate_201920>0.9314</attrate_201920>
+            <reportingperiod>2022-06-01T00:00:00</reportingperiod>
+            <date_update>2022-07-22T00:00:00</date_update>
+        </row>
+        <row _id="row-fzz5-6mvh~nkp3" _uuid="00000000-0000-0000-463A-CE4B9E57E28C" _position="0" _address="https://data.ct.gov/resource/t4hx-jd4c/row-fzz5-6mvh~nkp3">
+            <reportingdistrictcode>00000CT</reportingdistrictcode>
+            <reportingdistrictname>Connecticut</reportingdistrictname>
+            <category>Free/Reduced Lunch</category>
+            <studentgroup>Reduced Price Meal Eligible</studentgroup>
+            <studentcount_current>29905</studentcount_current>
+            <attrate_ytd>0.9184</attrate_ytd>
+            <studentcount_202021>30886</studentcount_202021>
+            <attrate_202021>0.9299</attrate_202021>
+            <studentcount_201920>27507</studentcount_201920>
+            <attrate_201920>0.9518</attrate_201920>
+            <reportingperiod>2022-06-01T00:00:00</reportingperiod>
+            <date_update>2022-07-22T00:00:00</date_update>
+        </row>
+        <row _id="row-52nt-fx38_4qgq" _uuid="00000000-0000-0000-1FA3-4DDB0A8DF905" _position="0" _address="https://data.ct.gov/resource/t4hx-jd4c/row-52nt-fx38_4qgq">
+            <reportingdistrictcode>00000CT</reportingdistrictcode>
+            <reportingdistrictname>Connecticut</reportingdistrictname>
+            <category>Free/Reduced Lunch</category>
+            <studentgroup>Free/Reduced Price Meal Eligible</studentgroup>
+            <studentcount_current>198889</studentcount_current>
+            <attrate_ytd>0.8901</attrate_ytd>
+            <studentcount_202021>207111</studentcount_202021>
+            <attrate_202021>0.8927</attrate_202021>
+            <studentcount_201920>221213</studentcount_201920>
+            <attrate_201920>0.934</attrate_201920>
+            <reportingperiod>2022-06-01T00:00:00</reportingperiod>
+            <date_update>2022-07-22T00:00:00</date_update>
+        </row>
+        <row _id="row-ua5y~xdwa_6wxs" _uuid="00000000-0000-0000-B8CE-91193A420222" _position="0" _address="https://data.ct.gov/resource/t4hx-jd4c/row-ua5y~xdwa_6wxs">
+            <reportingdistrictcode>00000CT</reportingdistrictcode>
+            <reportingdistrictname>Connecticut</reportingdistrictname>
+            <category>English Learners</category>
+            <studentgroup>English Learners</studentgroup>
+            <studentcount_current>43571</studentcount_current>
+            <attrate_ytd>0.8976</attrate_ytd>
+            <studentcount_202021>40619</studentcount_202021>
+            <attrate_202021>0.8948</attrate_202021>
+            <studentcount_201920>45413</studentcount_201920>
+            <attrate_201920>0.9389</attrate_201920>
+            <reportingperiod>2022-06-01T00:00:00</reportingperiod>
+            <date_update>2022-07-22T00:00:00</date_update>
+        </row>
+        <row _id="row-ven5_te3n-zadj" _uuid="00000000-0000-0000-1D79-019130A86436" _position="0" _address="https://data.ct.gov/resource/t4hx-jd4c/row-ven5_te3n-zadj">
+            <reportingdistrictcode>00000CT</reportingdistrictcode>
+            <reportingdistrictname>Connecticut</reportingdistrictname>
+            <category>Race/Ethnicity</category>
+            <studentgroup>All other races</studentgroup>
+            <studentcount_current>48700</studentcount_current>
+            <attrate_ytd>0.9314</attrate_ytd>
+            <studentcount_202021>47339</studentcount_202021>
+            <attrate_202021>0.9483</attrate_202021>
+            <studentcount_201920>47260</studentcount_201920>
+            <attrate_201920>0.9559</attrate_201920>
+            <reportingperiod>2022-06-01T00:00:00</reportingperiod>
+            <date_update>2022-07-22T00:00:00</date_update>
+        </row>
+        <row _id="row-daws_j63t~4cqt" _uuid="00000000-0000-0000-F072-646308D6EFAA" _position="0" _address="https://data.ct.gov/resource/t4hx-jd4c/row-daws_j63t~4cqt">
+            <reportingdistrictcode>00000CT</reportingdistrictcode>
+            <reportingdistrictname>Connecticut</reportingdistrictname>
+            <category>Race/Ethnicity</category>
+            <studentgroup>Black or African American</studentgroup>
+            <studentcount_current>63099</studentcount_current>
+            <attrate_ytd>0.8941</attrate_ytd>
+            <studentcount_202021>62267</studentcount_202021>
+            <attrate_202021>0.8931</attrate_202021>
+            <studentcount_201920>64200</studentcount_201920>
+            <attrate_201920>0.9401</attrate_201920>
+            <reportingperiod>2022-06-01T00:00:00</reportingperiod>
+            <date_update>2022-07-22T00:00:00</date_update>
+        </row>
+        <row _id="row-ajqh-5zw7-xtry" _uuid="00000000-0000-0000-91A8-2AC9BD843C14" _position="0" _address="https://data.ct.gov/resource/t4hx-jd4c/row-ajqh-5zw7-xtry">
+            <reportingdistrictcode>00000CT</reportingdistrictcode>
+            <reportingdistrictname>Connecticut</reportingdistrictname>
+            <category>Race/Ethnicity</category>
+            <studentgroup>Hispanic/Latino of any race</studentgroup>
+            <studentcount_current>146298</studentcount_current>
+            <attrate_ytd>0.8935</attrate_ytd>
+            <studentcount_202021>138260</studentcount_202021>
+            <attrate_202021>0.8975</attrate_202021>
+            <studentcount_201920>136953</studentcount_201920>
+            <attrate_201920>0.9362</attrate_201920>
+            <reportingperiod>2022-06-01T00:00:00</reportingperiod>
+            <date_update>2022-07-22T00:00:00</date_update>
+        </row>
+        <row _id="row-ddas-i744~9936" _uuid="00000000-0000-0000-0ECB-E3A5106F941F" _position="0" _address="https://data.ct.gov/resource/t4hx-jd4c/row-ddas-i744~9936">
+            <reportingdistrictcode>00000CT</reportingdistrictcode>
+            <reportingdistrictname>Connecticut</reportingdistrictname>
+            <category>Race/Ethnicity</category>
+            <studentgroup>White</studentgroup>
+            <studentcount_current>242188</studentcount_current>
+            <attrate_ytd>0.9338</attrate_ytd>
+            <studentcount_202021>248226</studentcount_202021>
+            <attrate_202021>0.9523</attrate_202021>
+            <studentcount_201920>259933</studentcount_201920>
+            <attrate_201920>0.9543</attrate_201920>
+            <reportingperiod>2022-06-01T00:00:00</reportingperiod>
+            <date_update>2022-07-22T00:00:00</date_update>
+        </row>
+        <row _id="row-hcvi~aze6_72b9" _uuid="00000000-0000-0000-6854-89ABDAD7E11F" _position="0" _address="https://data.ct.gov/resource/t4hx-jd4c/row-hcvi~aze6_72b9">
+            <reportingdistrictcode>00000CT</reportingdistrictcode>
+            <reportingdistrictname>Connecticut</reportingdistrictname>
+            <category>High Needs</category>
+            <studentgroup>Students Without High Needs</studentgroup>
+            <studentcount_current>241106</studentcount_current>
+            <attrate_ytd>0.9398</attrate_ytd>
+            <studentcount_202021>236395</studentcount_202021>
+            <attrate_202021>0.9616</attrate_202021>
+            <studentcount_201920>241610</studentcount_201920>
+            <attrate_201920>0.9606</attrate_201920>
+            <reportingperiod>2022-06-01T00:00:00</reportingperiod>
+            <date_update>2022-07-22T00:00:00</date_update>
+        </row>
+        <row _id="row-b4nj~m4vr-bmv4" _uuid="00000000-0000-0000-AC2F-CB708868D8DF" _position="0" _address="https://data.ct.gov/resource/t4hx-jd4c/row-b4nj~m4vr-bmv4">
+            <reportingdistrictcode>00000CT</reportingdistrictcode>
+            <reportingdistrictname>Connecticut</reportingdistrictname>
+            <category>High Needs</category>
+            <studentgroup>Students With High Needs</studentgroup>
+            <studentcount_current>248239</studentcount_current>
+            <attrate_ytd>0.8954</attrate_ytd>
+            <studentcount_202021>251220</studentcount_202021>
+            <attrate_202021>0.8996</attrate_202021>
+            <studentcount_201920>266736</studentcount_201920>
+            <attrate_201920>0.9361</attrate_201920>
+            <reportingperiod>2022-06-01T00:00:00</reportingperiod>
+            <date_update>2022-07-22T00:00:00</date_update>
+        </row>
+        <row _id="row-bv8c~eeqa_y6y2" _uuid="00000000-0000-0000-E1C5-115402FF3D57" _position="0" _address="https://data.ct.gov/resource/t4hx-jd4c/row-bv8c~eeqa_y6y2">
+            <reportingdistrictcode>0010011</reportingdistrictcode>
+            <reportingdistrictname>Andover School District</reportingdistrictname>
+            <studentgroup>All Students</studentgroup>
+            <studentcount_current>161</studentcount_current>
+            <attrate_ytd>0.9386</attrate_ytd>
+            <studentcount_202021>144</studentcount_202021>
+            <attrate_202021>0.968</attrate_202021>
+            <studentcount_201920>158</studentcount_201920>
+            <attrate_201920>0.9502</attrate_201920>
+            <reportingperiod>2022-06-01T00:00:00</reportingperiod>
+            <date_update>2022-07-22T00:00:00</date_update>
+        </row>
+        <row _id="row-i7b4~uy4i.2fhb" _uuid="00000000-0000-0000-78C8-E1F5042988C9" _position="0" _address="https://data.ct.gov/resource/t4hx-jd4c/row-i7b4~uy4i.2fhb">
+            <reportingdistrictcode>0010011</reportingdistrictcode>
+            <reportingdistrictname>Andover School District</reportingdistrictname>
+            <category>Students With Disabilities</category>
+            <studentgroup>Students With Disabilities</studentgroup>
+            <studentcount_current>23</studentcount_current>
+            <attrate_ytd>0.9315</attrate_ytd>
+            <reportingperiod>2022-06-01T00:00:00</reportingperiod>
+            <date_update>2022-07-22T00:00:00</date_update>
+        </row>
+        <row _id="row-4ga2-jwvu-8u2e" _uuid="00000000-0000-0000-D551-66872B608B02" _position="0" _address="https://data.ct.gov/resource/t4hx-jd4c/row-4ga2-jwvu-8u2e">
+            <reportingdistrictcode>0010011</reportingdistrictcode>
+            <reportingdistrictname>Andover School District</reportingdistrictname>
+            <category>Free/Reduced Lunch</category>
+            <studentgroup>Free/Reduced Price Meal Eligible</studentgroup>
+            <studentcount_current>30</studentcount_current>
+            <attrate_ytd>0.9274</attrate_ytd>
+            <studentcount_202021>31</studentcount_202021>
+            <attrate_202021>0.9414</attrate_202021>
+            <studentcount_201920>37</studentcount_201920>
+            <attrate_201920>0.9401</attrate_201920>
+            <reportingperiod>2022-06-01T00:00:00</reportingperiod>
+            <date_update>2022-07-22T00:00:00</date_update>
+        </row>
+        <row _id="row-ss5m-5s48~8gq2" _uuid="00000000-0000-0000-C145-01A53317CCE5" _position="0" _address="https://data.ct.gov/resource/t4hx-jd4c/row-ss5m-5s48~8gq2">
+            <reportingdistrictcode>0010011</reportingdistrictcode>
+            <reportingdistrictname>Andover School District</reportingdistrictname>
+            <category>Race/Ethnicity</category>
+            <studentgroup>White</studentgroup>
+            <studentcount_current>134</studentcount_current>
+            <attrate_ytd>0.9365</attrate_ytd>
+            <studentcount_202021>115</studentcount_202021>
+            <attrate_202021>0.9699</attrate_202021>
+            <studentcount_201920>128</studentcount_201920>
+            <attrate_201920>0.9479</attrate_201920>
+            <reportingperiod>2022-06-01T00:00:00</reportingperiod>
+            <date_update>2022-07-22T00:00:00</date_update>
+        </row>
+    </row>
+</response>
