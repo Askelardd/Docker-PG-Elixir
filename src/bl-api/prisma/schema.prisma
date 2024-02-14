@@ -19,3 +19,23 @@ model Teacher {
   @@map("teachers")
 }
 
+model Students {
+  id                    Int      @id @map("id") 
+  reportingperiod       DateTime?
+  studentcount_201920   Int?
+  attrate_202021        Int?
+  attrate_ytd           Int?
+  studentgroup          String?
+  category              String?
+  reportingdistrictcode String?
+  reportingdistrictname String?
+  attrate_201920        Int?
+  studentcount_202021   Int?
+  studentcount_current  Int?
+  date_update           DateTime?
+
+  @@map("students")
+
+}
+
+

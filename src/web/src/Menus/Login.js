@@ -1,33 +1,106 @@
-// aqui fora ficam imports de bibliotecas ou frameworks de estilo
+import React, {useEffect, useState} from "react";
+import {
+    Box,
+    Button,
+    Input,
+    CircularProgress,
+    Container,
+    FormControl,
+    InputLabel,
+    MenuItem,
+    Select,
+    Typography
+} from "@mui/material";
 
-// Dentro da export function ate ao return vao os scripts de comunicacao do front com o back
-// nome da funcao sempre igual ao nome do ficheiro e com a primeira letra em maiusculo
-function Login(){
+//Login
 
+function Login() {
+    const [username, setUsername] = useState("");
+    const [password, setPassword] = useState("");
+    const [token, setToken] = useState("");
 
-    // aqui vai o codigo HTML
+    const handleLogin = async (e) => {
+        e.preventDefault();
+        try {
+            //Debugguer
+
+            console.log("user"+username);
+            console.log("pass"+password);
+
+            // Fazer a requisição para a API de login
+            const response = await fetch("http://localhost:18080/login", {
+                method: "POST", // ou "GET", dependendo da sua API
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ username, password }),
+            });
+
+            if (response.ok) {
+                const data = await response.json();
+                setToken(data);
+                alert('Logado com sucesso!');
+            } else {
+                console.error("Erro ao fazer login");
+            }
+        } catch (error) {
+            console.error("Erro ao fazer login:", error);
+        }
+    };
+
     return (
-        <>
-        {/* aqui vai o codigo HTML */}
-        <form className="max-w-sm mx-auto">
-            <div className="mb-5">
-                <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Seu E-mail</label>
-                <input type="email" id="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="exemplo123@email.com" required/>
-            </div>
-            <div className="mb-5">
-                <label htmlFor="password" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Sua Senha</label>
-                <input type="password" id="password" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" required/>
-            </div>
-            <div className="flex items-start mb-5">
-                <div className="flex items-center h-5">
-                    <input id="terms" type="checkbox" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required/>
-                </div>
-                <label htmlFor="terms" className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Lembrar de mim</label>
-            </div>
-        </form>
-        </>
-    )
-
+        <Container sx={{width: "100%" }}>
+            <Box
+                sx={{
+                    marginTop: 4,
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                }}
+            >
+                <Typography component="h1" variant="h5">
+                    Login
+                </Typography>
+                <form onSubmit={handleLogin}>
+                    <FormControl sx={{ mt: 2, width: "100%" }} variant="outlined">
+                        <InputLabel htmlFor="username" sx={{ color: "black" }}>Username</InputLabel>
+                        <Input
+                            id="username"
+                            name="username"
+                            type="text"
+                            value={username}
+                            onChange={(e) => setUsername(e.target.value)}
+                            required
+                            sx={{ color: "black" }}
+                        />
+                    </FormControl>
+                    <FormControl sx={{ mt: 2, width: "100%", color: "black" }} variant="outlined">
+                        <InputLabel htmlFor="password" sx={{ color: "black" }}>Password</InputLabel>
+                        
+                        <Input
+                            id="password"
+                            name="password"
+                            type="password"
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}
+                            required
+                            sx={{ color: "black" }}
+                        />
+                        
+                    </FormControl>
+                    <Button
+                        type="submit"
+                        fullWidth
+                        variant="contained"
+                        sx={{ mt: 3, mb: 2, backgroundColor: "black", color: "white" }
+                       }
+                    >
+                        Submit
+                    </Button>
+                </form>
+            </Box>
+        </Container>
+    );
 }
 
 export default Login;

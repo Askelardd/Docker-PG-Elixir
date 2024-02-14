@@ -2,20 +2,20 @@ import React, {useEffect, useState} from "react";
 import {Box, CircularProgress, Container, FormControl, InputLabel, MenuItem, Select} from "@mui/material";
 
 const DEMO_TEAMS = [
-    {"team": "Manchester United", country: "UK"},
-    {"team": "Manchester City", country: "UK"},
-    {"team": "Chelsea", country: "UK"},
-    {"team": "Tottenham", country: "UK"},
-    {"team": "Fulham", country: "UK"},
+    {"team": "Homelessness", country: "category"},
+    {"team": "Students With Disabilities", country: "category"},
+    {"team": "Free/Reduced Lunch", country: "category"},
+    {"team": "English Learners", country: "category"},
+    {"team": "Race/Ethnicity<", country: "category"},
+    {"team": "High Needs", country: "category"},
 
-    {"team": "Sporting", country: "Portugal"},
-    {"team": "Porto", country: "Portugal"},
-    {"team": "Benfica", country: "Portugal"},
-    {"team": "Braga", country: "Portugal"},
+    {"team": "Connecticut", country: "district"},
+    {"team": "Andover School District", country: "district"},
+    {"team": "Milford School District", country: "district"},
+    {"team": "West Hartford School District", country: "district"},
+    {"team": "Regional School District 18", country: "district"},
 
-    {"team": "PSG", country: "France"},
-    {"team": "Lyon", country: "France"},
-    {"team": "Olympique de Marseille", country: "France"}
+
 ];
 
 const COUNTRIES = [...new Set(DEMO_TEAMS.map(team => team.country))];
@@ -42,7 +42,7 @@ function TopTeams() {
 
     return (
         <>
-            <h1>Top Teams</h1>
+            <h1>Filter</h1>
 
             <Container maxWidth="100%"
                        sx={{backgroundColor: 'background.default', padding: "2rem", borderRadius: "1rem"}}>

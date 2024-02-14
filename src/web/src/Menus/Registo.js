@@ -1,42 +1,107 @@
+import React, { useState } from "react";
+import {
+    Box,
+    Button,
+    Input,
+    Container,
+    FormControl,
+    InputLabel,
+    Typography
+} from "@mui/material";
 
+function Registar() {
+    const [username, setUsername] = useState("");
+    const [password, setPassword] = useState("");
 
-// aqui fora ficam imports de bibliotecas ou frameworks de estilo
+    const handleSubmit = async (e) => {
+        e.preventDefault();
 
-// Dentro da export function ate ao return vao os scripts de comunicacao do front com o back
-// nome da funcao sempre igual ao nome do ficheiro e com a primeira letra em maiusculo
-function Registo(){
+        // Prepare the data to be sent to the server
+        const data = {
+            username: username,
+            userpassword: password,
+        };
 
+        try {
+            // Make a POST request to your backend API
+            const response = await fetch("http://localhost:18080/adduser", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(data),
+            });
 
-    // aqui vai o codigo HTML
+            // Check if the request was successful (status code 200-299)
+            if (response.ok) {
+                console.log("Data sent successfully!");
+                //window.location.href = "/login";
+            } else {
+                console.error("Failed to send data to the server");
+            }
+        } catch (error) {
+            console.error("Error sending data to the server:", error);
+        }
+    };
+
     return (
-        <>
-        {/* aqui vai o codigo HTML */}
-                    
-        <form className="max-w-sm mx-auto">
-            <div className="mb-5">
-                <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Seu E-mail</label>
-                <input type="email" id="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="exemplo123@email.com" required/>
-            </div>
-            <div className="mb-5">
-                <label htmlFor="password" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Sua Senha</label>
-                <input type="password" id="password" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" required/>
-            </div>
-            <div className="mb-5">
-                <label htmlFor="repeat-password" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Repita sua Senha</label>
-                <input type="password" id="repeat-password" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" required/>
-            </div>
-            <div className="flex items-start mb-5">
-                <div className="flex items-center h-5">
-                    <input id="terms" type="checkbox" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required/>
-                </div>
-                <label htmlFor="terms" className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Lembrar de mim</label>
-            </div>
-            <button type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Registrar</button>
-        </form>
-
-        </>
-    )
-     
+        <Container>
+            <Box
+                sx={{
+                    marginTop: 4,
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                }}
+            >
+                <Typography component="h1" variant="h5">
+                    Registar
+                </Typography>
+                <Box
+                    component="form"
+                    onSubmit={handleSubmit}
+                    sx={{ width: "100%", mt: 3 }}
+                >
+                    <FormControl sx={{ mt: 2, width: "100%" }} variant="outlined">
+                        <InputLabel htmlFor="username" sx={{ color: "black" }}>
+                            Username
+                        </InputLabel>
+                        <Input
+                            id="username"
+                            name="username"
+                            type="text"
+                            value={username}
+                            onChange={(e) => setUsername(e.target.value)}
+                            required
+                            sx={{ color: "black" }}
+                        />
+                    </FormControl>
+                    <FormControl sx={{ mt: 2, width: "100%" }} variant="outlined">
+                        <InputLabel htmlFor="password" sx={{ color: "black" }}>
+                            Password
+                        </InputLabel>
+                        <Input
+                            id="password"
+                            name="password"
+                            type="password"
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}
+                            required
+                            sx={{ color: "black" }}
+                        />
+                    </FormControl>
+                    <Button
+                        type="submit"
+                        fullWidth
+                        variant="contained"
+                        sx={{ mt: 3, mb: 2, backgroundColor: "black", color: "black" }}
+                    >
+                        Submit
+                    </Button>
+                </Box>
+            </Box>
+        </Container>
+    );
 }
 
-export default Registo;
+export default Registar;
